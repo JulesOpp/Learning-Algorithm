@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843B311C1AA294AB0051F1AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843B311B1AA294AB0051F1AE /* main.cpp */; };
+		843B311E1AA294AB0051F1AE /* Learning_Algorithm.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 843B311D1AA294AB0051F1AE /* Learning_Algorithm.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		843B31151AA294AB0051F1AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				843B311E1AA294AB0051F1AE /* Learning_Algorithm.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		843B31171AA294AB0051F1AE /* Learning Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Learning Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843B311B1AA294AB0051F1AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		843B311D1AA294AB0051F1AE /* Learning_Algorithm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learning_Algorithm.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843B31141AA294AB0051F1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843B310C1AA294AB0051F1AE = {
+			isa = PBXGroup;
+			children = (
+				843B311A1AA294AB0051F1AE /* Learning Algorithm */,
+				843B31181AA294AB0051F1AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843B31181AA294AB0051F1AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843B31171AA294AB0051F1AE /* Learning Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843B311A1AA294AB0051F1AE /* Learning Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				843B311B1AA294AB0051F1AE /* main.cpp */,
+				843B311D1AA294AB0051F1AE /* Learning_Algorithm.1 */,
+			);
+			path = "Learning Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843B31161AA294AB0051F1AE /* Learning Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843B31211AA294AB0051F1AE /* Build configuration list for PBXNativeTarget "Learning Algorithm" */;
+			buildPhases = (
+				843B31131AA294AB0051F1AE /* Sources */,
+				843B31141AA294AB0051F1AE /* Frameworks */,
+				843B31151AA294AB0051F1AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning Algorithm";
+			productName = "Learning Algorithm";
+			productReference = 843B31171AA294AB0051F1AE /* Learning Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843B310E1AA294AB0051F1AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 843B31111AA294AB0051F1AE /* Build configuration list for PBXProject "Learning Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 843B310C1AA294AB0051F1AE;
+			productRefGroup = 843B31181AA294AB0051F1AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843B31161AA294AB0051F1AE /* Learning Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843B31131AA294AB0051F1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843B311C1AA294AB0051F1AE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		843B311F1AA294AB0051F1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		843B31201AA294AB0051F1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		843B31221AA294AB0051F1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843B31231AA294AB0051F1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843B31111AA294AB0051F1AE /* Build configuration list for PBXProject "Learning Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843B311F1AA294AB0051F1AE /* Debug */,
+				843B31201AA294AB0051F1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843B31211AA294AB0051F1AE /* Build configuration list for PBXNativeTarget "Learning Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843B31221AA294AB0051F1AE /* Debug */,
+				843B31231AA294AB0051F1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843B310E1AA294AB0051F1AE /* Project object */;
+}
